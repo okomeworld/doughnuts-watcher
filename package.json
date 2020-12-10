@@ -1,0 +1,18 @@
+{
+  "name": "doughnuts-watcher",
+  "version": "1.0.0",
+  "description": "ドーナツに関する投稿をいつも見ている",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm --prefix=functions run serve",
+    "build": "npm --prefix=functions run build",
+    "deploy": "npm --prefix=functions run deploy"
+  },
+  "author": "okomeworld",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^8.18.1",
+    "ngrok": "^3.3.0"
+  },
+  "private": true
+}
